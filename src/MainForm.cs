@@ -34,6 +34,7 @@ namespace SharpBrowser {
 		public static string NewTabURL = "about:blank";
 		public static string InternalURL = "sharpbrowser";
 		public static string DownloadsURL = "sharpbrowser://storage/downloads.html";
+		public static string SettingsURL = "sharpbrowser://storage/settings.html";
 		public static string FileNotFoundURL = "sharpbrowser://storage/errors/notFound.html";
 		public static string CannotConnectURL = "sharpbrowser://storage/errors/cannotConnect.html";
 		public static string SearchURL = "https://www.google.com/search?q=";
@@ -934,6 +935,11 @@ namespace SharpBrowser {
 			CurBrowser.Load(HomepageURL);
         }
         #endregion
+
+        private void BtnSettings_Click(object sender, EventArgs e)
+        {
+			CurBrowser.Load(SettingsURL);
+		}
     }
 }
 

@@ -41,6 +41,8 @@
             this.BtnDownloads = new System.Windows.Forms.Button();
             this.TxtURL = new System.Windows.Forms.TextBox();
             this.PanelToolbar = new System.Windows.Forms.Panel();
+            this.BtnSettings = new System.Windows.Forms.Button();
+            this.BtnHome = new System.Windows.Forms.Button();
             this.TabPages = new FarsiLibrary.Win.FATabStrip();
             this.tabStrip1 = new FarsiLibrary.Win.FATabStripItem();
             this.tabStripAdd = new FarsiLibrary.Win.FATabStripItem();
@@ -50,7 +52,6 @@
             this.BtnPrevSearch = new System.Windows.Forms.Button();
             this.BtnCloseSearch = new System.Windows.Forms.Button();
             this.TxtSearch = new System.Windows.Forms.TextBox();
-            this.BtnHome = new System.Windows.Forms.Button();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TabPages)).BeginInit();
@@ -65,20 +66,20 @@
             this.menuCloseTab,
             this.menuCloseOtherTabs});
             this.menuStripTab.Name = "menuStripTab";
-            this.menuStripTab.Size = new System.Drawing.Size(198, 52);
+            this.menuStripTab.Size = new System.Drawing.Size(170, 48);
             // 
             // menuCloseTab
             // 
             this.menuCloseTab.Name = "menuCloseTab";
             this.menuCloseTab.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F4)));
-            this.menuCloseTab.Size = new System.Drawing.Size(197, 24);
+            this.menuCloseTab.Size = new System.Drawing.Size(169, 22);
             this.menuCloseTab.Text = "Close tab";
             this.menuCloseTab.Click += new System.EventHandler(this.menuCloseTab_Click);
             // 
             // menuCloseOtherTabs
             // 
             this.menuCloseOtherTabs.Name = "menuCloseOtherTabs";
-            this.menuCloseOtherTabs.Size = new System.Drawing.Size(197, 24);
+            this.menuCloseOtherTabs.Size = new System.Drawing.Size(169, 22);
             this.menuCloseOtherTabs.Text = "Close other tabs";
             this.menuCloseOtherTabs.Click += new System.EventHandler(this.menuCloseOtherTabs_Click);
             // 
@@ -165,7 +166,7 @@
             this.TxtURL.Location = new System.Drawing.Point(60, 5);
             this.TxtURL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtURL.Name = "TxtURL";
-            this.TxtURL.Size = new System.Drawing.Size(812, 27);
+            this.TxtURL.Size = new System.Drawing.Size(812, 22);
             this.TxtURL.TabIndex = 5;
             this.TxtURL.Click += new System.EventHandler(this.txtUrl_Click);
             this.TxtURL.TextChanged += new System.EventHandler(this.txtUrl_TextChanged);
@@ -174,6 +175,7 @@
             // PanelToolbar
             // 
             this.PanelToolbar.BackColor = System.Drawing.Color.White;
+            this.PanelToolbar.Controls.Add(this.BtnSettings);
             this.PanelToolbar.Controls.Add(this.BtnHome);
             this.PanelToolbar.Controls.Add(this.TxtURL);
             this.PanelToolbar.Controls.Add(this.BtnDownloads);
@@ -187,6 +189,36 @@
             this.PanelToolbar.Name = "PanelToolbar";
             this.PanelToolbar.Size = new System.Drawing.Size(934, 30);
             this.PanelToolbar.TabIndex = 6;
+            // 
+            // BtnSettings
+            // 
+            this.BtnSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSettings.ForeColor = System.Drawing.Color.White;
+            this.BtnSettings.Image = ((System.Drawing.Image)(resources.GetObject("BtnSettings.Image")));
+            this.BtnSettings.Location = new System.Drawing.Point(816, 0);
+            this.BtnSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BtnSettings.Name = "BtnSettings";
+            this.BtnSettings.Size = new System.Drawing.Size(25, 30);
+            this.BtnSettings.TabIndex = 7;
+            this.BtnSettings.Tag = "Settings";
+            this.BtnSettings.UseVisualStyleBackColor = true;
+            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
+            // 
+            // BtnHome
+            // 
+            this.BtnHome.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnHome.ForeColor = System.Drawing.Color.White;
+            this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
+            this.BtnHome.Location = new System.Drawing.Point(847, 0);
+            this.BtnHome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BtnHome.Name = "BtnHome";
+            this.BtnHome.Size = new System.Drawing.Size(25, 30);
+            this.BtnHome.TabIndex = 6;
+            this.BtnHome.Tag = "Home";
+            this.BtnHome.UseVisualStyleBackColor = true;
+            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
             // TabPages
             // 
@@ -301,25 +333,10 @@
             this.TxtSearch.Location = new System.Drawing.Point(10, 6);
             this.TxtSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtSearch.Name = "TxtSearch";
-            this.TxtSearch.Size = new System.Drawing.Size(181, 31);
+            this.TxtSearch.Size = new System.Drawing.Size(181, 25);
             this.TxtSearch.TabIndex = 6;
             this.TxtSearch.TextChanged += new System.EventHandler(this.TxtSearch_TextChanged);
             this.TxtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtSearch_KeyDown);
-            // 
-            // BtnHome
-            // 
-            this.BtnHome.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnHome.ForeColor = System.Drawing.Color.White;
-            this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
-            this.BtnHome.Location = new System.Drawing.Point(847, 0);
-            this.BtnHome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.BtnHome.Name = "BtnHome";
-            this.BtnHome.Size = new System.Drawing.Size(25, 30);
-            this.BtnHome.TabIndex = 6;
-            this.BtnHome.Tag = "Home";
-            this.BtnHome.UseVisualStyleBackColor = true;
-            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
             // MainForm
             // 
@@ -371,6 +388,7 @@
 		private System.Windows.Forms.Button BtnPrevSearch;
 		private System.Windows.Forms.Button BtnNextSearch;
         private System.Windows.Forms.Button BtnHome;
+        private System.Windows.Forms.Button BtnSettings;
     }
 }
 

@@ -174,15 +174,27 @@
         t+O8AzfwEnIVPWyGDum+Oox5AmJH+ASE2L9zAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="BtnSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEdSURBVDhPYxjZgIWXl9eCn5+/gI+Prx9IBwCxAFSOdADS
+        DMTNQPwdiP/DMNDwbqgS8oCQkJAM0JD5QMN+IxnaD5UmHwANMgAGwX2YoSA+VAo/ACpMAVIcEB4qABq4
+        H8nABKgwfgD0zmWg4udQDSwQUQgAih2HGgbCm0HBAZXCDYAGVsA0QQ0PANI5UDbMMBj+DhTvBtL4Yx+o
+        CJRM0DXjxMCgeA+yFKgVxUcoAKiwABpmsGTzHMhfDaRvQ/nY8HUgDoAagRNwcHFxSUDZIMAC1JQCxKBw
+        xmYoKKgOA2kHqHqiAQdQUwPQ1Z+RDUPDk6FqiQcg1wNdNBuoGZ7wkfBzqDLSAdBQFSBej2YgcWkVHwAa
+        4gB1MSiDjDzAwAAAD1pr1BFOe/gAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="BtnHome.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        dAAAEnQB3mYfeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEPSURBVDhP1ZIx
-        DkRAFIYdQekEnECh4yIUCp2IWqJRq/QSR5AonMAVhNoJHOBt3lszIZ7dodhk/+SPNzP//yUzoYGC+r4n
-        q+grMM9z0DSNjDNqmiZomga6roO2bWEYBtpHfQT6vi9hwkEQ0JnjOId9oUug67qHwt6e51EmSRK5J8QC
-        TdM8ADhblkXZqqpoLXQC6rp+Kl8Zs6i6rumLOgC5kor3otW6rmzwjpFBwGVZ2MATbyz+8LGLogDbtsEw
-        DD6gYOwiA1nyRbMsY8Mqxq6QBKZpyoZVjF2h3wP317l6llvAOI63BNDMZf4UGEURGw7DcEsAzVwGu0IS
-        OM8z/ZhlWUrjehzHLQE0cxnsvgXwAvr4W8D8LvUNAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFZSURBVDhP1ZStTgNREIVXVG32J7thEwSikofgERCISgSi
+        AolEVPAGiIpKRAViJY+AQCARCEQFYkVFBRIB52vmJrd3t12K6yQnd+6ZOTPTu5NGfVZVVZLn+UyYx3F8
+        bPT/jAIq9C78GJokSU4tvJ8hTNP00yu2hrhVURRnlvY3QyDx0itS65x69y+dI0vfbUq8MIGbaip6QCzL
+        sonHf+t+Db/VlDQm0YkoAK8Gl/Jvu3KEO/iWhd2FK3idN45Xzr2ogfxR8Ctm8ORjJGy8j3BOgAKO9+I1
+        Gt5Z/srnWTEmYMecoLEvSJO5x29AjZ4Rswm6N45fN5PzasQHCbbIT8ZthYq+sadlWZ7o7nZ16ZZ3rGJH
+        gO4W7IUmWjCE6Sat/VTSSyjqA5OavG107BLtAhqTt+0wC4qr9U4PAL8jvveEQwvz0YZB7NAL2jstfPh/
+        +yxwGFfRRwvLougX9mb7ygMjnTkAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="BtnNextSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
