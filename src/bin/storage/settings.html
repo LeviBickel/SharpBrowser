@@ -42,15 +42,8 @@
 	});
 	
 	function LoadSettings(){
-		//read from JSON file and set the input elements.
-		$.getJSON("usersettings.json", function(data){
-            //console.log(data.Homepage);
-			//document.getElementById("Homepage").placeholder=data.Homepage; 
-			alert("Success");          
-        }).fail(function(){
-            alert("Failed to read JSON");
-        });
-		
+    let json = JSON.parse($.getJSON("usersettings.json"));
+    alert(json.Homepage);
 	}
 
 	function SaveSettings(){
